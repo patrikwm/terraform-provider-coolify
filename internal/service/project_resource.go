@@ -254,6 +254,7 @@ func (r *projectResource) ApiToModel(
 			"name":        flatten.String(env.Name),
 			"project_id":  flatten.Int64(env.ProjectId),
 			"updated_at":  flatten.String(env.UpdatedAt),
+			"uuid":        flatten.String(env.Uuid),
 		}
 
 		data, diag := datasource_project.NewEnvironmentsValue(
