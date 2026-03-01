@@ -52,7 +52,7 @@ Add the following secrets to your GitHub repository:
 
    - **Name:** `GPG_PRIVATE_KEY`
      - **Value:** Contents of `gpg-private-key.asc` file
-   
+
    - **Name:** `PASSPHRASE`
      - **Value:** Your GPG key passphrase (leave empty if no passphrase)
 
@@ -216,7 +216,7 @@ provider_installation {
   dev_overrides {
     "patrikwm/coolify" = "/Users/patrik/go/bin"
   }
-  
+
   # For all other providers, install them directly from their origin provider
   # registries as normal.
   direct {}

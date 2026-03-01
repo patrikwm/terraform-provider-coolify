@@ -1,4 +1,5 @@
 terraform-provider-coolify
+terraform-provider-coolify_v*
 dist/
 .vscode/
 .env
